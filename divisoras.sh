@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "cuantas veces rogoo Tania:"
+echo "ingresar numero:"
 read a
 n=$a
 echo Los numeros divisores son:
@@ -11,5 +11,6 @@ then
 echo $n
 fi
 n=$(echo "$n-1" | bc -l)
-done
+doneecho "cuantas veces rogoo Tania:"
+
 
